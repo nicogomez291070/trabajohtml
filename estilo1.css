@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #2C3848;
+
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    background-color: #162636;
+    padding: 1px;
+    text-align: center;
+    font-size: 15px;
+    opacity: 80%;
+    height: 60px;
+    width: 100%;
+    
+}
+
+.bannerporo{
+    background-image: url(banner_dark_ukr.jpg);
+    margin-bottom: 20px;
+    margin-top: 5%;
+    box-shadow: inset 0px 0px 10px rgb(0 0 0 / 40%);
+    height: 400px;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
+}
+.zonatempo{
+    background-color: #394556;
+    max-width: 800px;
+    height: 33%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5.5%;
+}
+.headerposi{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #172636;
+    box-shadow: none;
+    margin: 0;
+    padding: 10px 0;
+    color: #FFF;
+}
+.texto1{
+    font-size: 12px;
+}
+.colorboton{
+    color: #394556;
+}
+.izquierda{
+color: aliceblue;
+  float: left;
+}
+.derecha{
+    float:right;
+}
+.modoDN{
+    display: inline-block;
+    margin-right: 20px;
+}
+.socialmed{
+    display: inline-block;
+    margin-right: 20px;
+}
+.formu{
+    display: inline-block;
+    margin-right: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.descarga{
+    font-size: 15px;
+    color: #2A2A2A;
+    cursor: pointer;
+    padding: 4px 16px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+    margin-left: 23px;
+    border: none;
+    border-radius: 4px;
+    vertical-align: top;
+    padding-left: 9px;
+    background-color: #ff5859;
+}
+
+
+.tablatotal{
+    max-width: 1200px;
+    margin: auto;
+    font-size: 14px;
+
+   
+}
+.tablatotal li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.tablachamps{
+width: 100%;
+margin: 0 0.5rem;
+background-color: #3A4556;
+margin-bottom: 20px;
+}
+.columna1{
+    width: 50%;
+    float:left;
+    padding: 10px 0px;
+    text-align: right;
+}
+.columna2{
+    width: 50%;
+   float: left;
+    padding: 10px 0px;
+}
+
+
+.fototabla1{
+    float: right;
+    
+}
+.fototabla2{
+    float: right;
+}
+img{
+    border-radius: 4px;
+ 
+}
+.piepag{
+    float:right;
+}
+.Pla1{
+
+}
+.Pla2{
+
+}
+
+.Pla3{
+
+}
+
+.Pla4{
+
+}
+
+.Pla5{
+
+}
+.nombre{
+    color: aliceblue;
+}
+.rank{
+    color: aliceblue;
+}
+
+
+
+.col-12, .col-6, .col-4, .col-3 {float: left;}
+
+
+.col-12 {
+    width: 100%;
+    display: flex;
+}
+.col-6 {
+    width: 50%;
+    display: flex;
+    
+}
+.col-4 {
+    width: 33.33%;
+    display: flex;
+    
+}
+.col-3 {
+    width: 25%;
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .col-12, .col-6, .col-4, .col-3 {
+        width:100%;
+    }
+}
