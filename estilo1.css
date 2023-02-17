@@ -80,7 +80,7 @@ color: aliceblue;
     display: inline-block;
   }
 .dropbtn{
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -109,7 +109,7 @@ color: aliceblue;
 }
   
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #000000;
 }
 .descarga{
     font-size: 15px;
